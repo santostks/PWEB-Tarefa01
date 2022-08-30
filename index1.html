@@ -11,77 +11,118 @@
         .container{
             background-color: darkgray;
             width: 800px;
-            height: 90%;
-            display: flex;
-            justify-content: center;   
+            height: 800px;
+            display: flex; 
             flex-direction: column;
+            justify-content: center;
+            align-content: space-between;
+            border-style: ridge;
+
+            border-width: 100px; 
             
         }
         .box1{
             width: 400px;
             height: 400px;
             background-color:salmon;
-            
+            align-self: flex-start;
+
         }
+        
         .box2{
             flex-direction: row;
-            width: 800px;
-            height: 150px;
+            width: 200px;
+            height: 200px;
             background-color: greenyellow;
 
         }
         .box3{
             
-            width: 400px;
-            height: 400px;
-            background-color: rgb(243, 153, 252);
+            width: 200px;
+            height: 200px;
+            background-color: greenyellow;
 
         }
         .box4{
-            width: 800px;
-            height: 125px;
-            background-color: rgb(149, 130, 255);
-
-        }
-        .box5{
-            width: 800px;
-            height: 125px;
+            width: 200px;
+            height: 200px;
             background-color: aqua;
 
         }
+        .box5{
+            width: 200px;
+            height: 200px;
+            background-color: aqua;
 
-        .quebralinha{
+        }
+        .box6{
+            width: 400px;
+            height: 400px;
+            background-color:salmon;
+            
+            
+        }
+
+        .caixa1{
             display: flex;
-            flex-wrap: wrap;
-            align-items: center;
-            
-        }
-        .juncao{
+            flex-direction: row;
             
             
         }
+        .caixa2{
+           display: flex;
+           flex-direction: row;
+            
+        }
+       
     </style>
     
 <body>
     <div class="container">
+            <div class="caixa1">
+                <div class="box1">
+        </div> 
+                <div class="column2">
         <div class="box2">
-        </div>
-        
-        <div class="quebralinha">
-        <div class="box3">
+            CAIXA1
          </div>
-         <div class="box1">
+         <div class="box3">
+             CAIXA2
         </div>
-
-            <div class="juncao">
+                </div>
+                <div class="column1">
+        <div class="box2">
+            CAIXA3
+         </div>
+         <div class="box3">
+            CAIXA4
+        </div>
+                </div>
+</div>
+        <div class="caixa2">
+            <div class="column1">
         <div class="box4">
+            CAIX5
         </div>
         <div class="box5">
+            CAIXA6
         </div>
+            </div>
+            <div class="column2">
+        <div class="box4">
+            CAIXA7
+        </div>
+        <div class="box5">
+            CAIXA8
+        </div>
+    </div>
+        <div class="box6">
+    </div>
+     </div>
     </div>
 
         
-    </div>
+    
         
 </div>
 </body>
